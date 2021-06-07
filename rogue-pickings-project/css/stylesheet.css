@@ -1,0 +1,175 @@
+/***BASE***/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: gainsboro
+}
+
+/***GRID***/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    overflow: auto;
+    float: left;
+}
+
+.third-width {
+    width: 300px;
+    overflow: auto;
+    float: left;
+    border-top:#77a466
+  
+}
+
+/***HEADER***/
+header {
+	height: 110px;
+	margin: 0 auto;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+header h1 span {
+    color:#77a466;
+    font-size: 30px;
+}
+
+header nav {
+    float: right; 
+    margin: 10px auto; 
+    padding-top: 10px;   
+}
+
+header nav ul li{
+    display: inline-block; 
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #77a466;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 25px;
+
+}
+
+    /***SECTION 1***/
+
+section .image {
+    height: 288px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 150px;
+}
+
+img{
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+  
+}
+    
+section h3 {
+    color:#77a466;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 150px;
+}
+    
+section p{
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 25px;
+    padding-right: 140px;
+    padding-left: 150px;
+}
+
+
+/***SECTION 2***/
+#section2 {
+    border-top: 1px solid #77a466;
+    border-bottom: 1px solid #77a466;
+    margin: 0px 150px 20px 150px
+}
+
+#specials {
+    margin-right: 95px;
+}
+#specials h4{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+#specials ol{
+    font-weight: lighter;
+    color: #77a466;
+    padding: 0px;
+    font-size: 16px;
+}
+
+#specials ol li{
+    list-style: none;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#reviews{
+    border-left: 1px solid #77a466;
+    border-right: 1px solid #77a466;
+    width: 400px;
+    
+}    
+
+#reviews h4 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 0px 0px 0px 60px 
+}
+
+#reviews p {
+    padding: 0px 50px 10px 50px
+
+}
+
+
+#contact{
+    padding: 0px 40px 0px 0px
+}
+
+#contact h4{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 0px 0px 0px 60px
+}
+
+#contact div {
+    padding: 0px 50px 10px 50px
+}
+
+/***FOOTER***/
+footer {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+
+}
+
+footer em {
+    font-family: 'Cookie', cursive;
+    color:#77a466;
+    font-size: 25px;
+    font-weight: bold;
+}
